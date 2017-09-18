@@ -1,0 +1,29 @@
+{
+  "name": "reduce-to-639-1",
+  "version": "1.0.0",
+  "description": "Quick and dirty tool to reduce language claims to two-letter iso-639-1 codes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StoneCypher/node-reduce-to-639-1.git"
+  },
+  "keywords": [
+    "iso",
+    "639",
+    "639-1",
+    "iso-639",
+    "iso-639-1",
+    "language",
+    "code",
+    "language-code"
+  ],
+  "author": "John Haugeland <stonecypher@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/StoneCypher/node-reduce-to-639-1/issues"
+  },
+  "homepage": "https://github.com/StoneCypher/node-reduce-to-639-1#readme"
+}

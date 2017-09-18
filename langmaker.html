@@ -1,6 +1,8 @@
 <!doctype html>
 <html>
 
+  <!-- lol this is so gross -->
+
   <head>
     <script type="text/javascript">
 
@@ -198,9 +200,9 @@ let rows   = src.split('\n'),
     part3  = a => a[3].split(', '),
     cut    = a => a.slice(1,7),
 //  snip   = a => unique(cut(a)),
-    snip   = a => ({ key: a[3], names: unique(cut(a).concat(part2(a)).concat(part3(a))) }),
+    snip   = a => ({ key: a[3], names: unique(cut(a).concat(part2(a))) }),
     clean  = cells.map(snip),
-    invert = k => k.map(r => r.names.map(n => ({ name: n, short: r.key }) ) ),
+    invert = k => k.map(r => r.names.map(n => ({ name: n.toLowerCase(), short: r.key }) ) ),
 
     langs  = {};
 
@@ -212,7 +214,7 @@ window.onload = () => document.getElementById('tgt').innerHTML = JSON.stringify(
   </head>
 
   <body>
-    <pre id="tgt"></pre>
+    <pre style="white-space: pre-wrap;" id="tgt"></pre>
   </body>
 
 </html>

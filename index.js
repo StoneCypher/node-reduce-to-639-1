@@ -1,5 +1,5 @@
 
-const reductions = require('./reductions.json');
+var reductions = require('./reductions.json');
 
 
 

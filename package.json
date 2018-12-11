@@ -1,6 +1,6 @@
 {
   "name": "reduce-to-639-1",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Quick and dirty tool to reduce language claims to two-letter iso-639-1 codes",
   "main": "index.js",
   "scripts": {

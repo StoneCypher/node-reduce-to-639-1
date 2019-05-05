@@ -857,7 +857,7 @@ var reductions = {
 
 function reduce(from) {
 
-    return reductions[(from || '').toLowerCase()];
+    return reductions[from.toLowerCase()];
 
 }
 

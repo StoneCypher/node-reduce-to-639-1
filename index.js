@@ -92,7 +92,6 @@ var reductions = {
   "भोजपुरी" : "bh",
   "bh" : "bh",
   "bih" : "bh",
-  "" : "bh",
   "bislama" : "bi",
   "bi" : "bi",
   "bis" : "bi",

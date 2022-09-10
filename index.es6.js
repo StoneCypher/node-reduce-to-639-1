@@ -863,4 +863,4 @@ function reduce(from) {
 
 
 
-module.exports = { reduce: reduce, reductions: reductions };
+export { reduce, reductions };
